@@ -1,16 +1,17 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<link rel="stylesheet" href="resources/css/common.css" type="text/css">
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-
-<P>  ${msg} </P>
+	<P>  ${msg} </P>
 <h3>폐기 기능</h3>
 <p>폐기 기능은 아직 커밋하지 않은 상태를 취소 하는 기능이다.</p>
 </body>
+<script></script>
 </html>
