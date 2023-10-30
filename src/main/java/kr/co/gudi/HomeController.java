@@ -20,5 +20,10 @@ public class HomeController {
 		model.addAttribute("msg","hello java");
 		return "home";
 	}
+	
+	@RequestMapping(value = "/list")
+	public String list(Model model) {
+		return "list";
+	}
 
 }
